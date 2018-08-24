@@ -1,0 +1,48 @@
+{
+  "name": "quickimage",
+  "version": "1.0.0",
+  "description": "An image conversion library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec && snazzy --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreybutler/quickimage.git"
+  },
+  "keywords": [
+    "image",
+    "conversion",
+    "icon"
+  ],
+  "author": "Corey Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreybutler/quickimage/issues"
+  },
+  "homepage": "https://github.com/coreybutler/quickimage#readme",
+  "dependencies": {
+    "jimp": "^0.2.27",
+    "pngjs": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "gulp": "^3.9.1",
+    "snazzy": "^2.0.1",
+    "standard": "^5.3.1",
+    "standard-tap": "^1.0.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "_*",
+      "_**/*"
+    ],
+    "globals": []
+  }
+}
